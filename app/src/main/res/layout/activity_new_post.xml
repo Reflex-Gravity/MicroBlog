@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.devsvalley.microblog.NewPostActivity"
+    android:background="@android:color/white">
+
+<LinearLayout
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Post"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textStyle="bold"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textCapWords"
+            android:maxLines="1"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Author"
+            android:inputType="textCapWords"
+            android:maxLines="1"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Image Url"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textUri"
+            android:maxLines="1"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Content"
+            android:imeOptions="actionUnspecified"
+            android:minLines="6"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:layout_gravity="right"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:clickable="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+</ScrollView>

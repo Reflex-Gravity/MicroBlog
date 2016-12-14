@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "81363754017",
+    "firebase_url": "https://micro-blog-812bc.firebaseio.com",
+    "project_id": "micro-blog-812bc",
+    "storage_bucket": "micro-blog-812bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81363754017:android:f9c1cdc3775941da",
+        "android_client_info": {
+          "package_name": "com.devsvalley.microblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81363754017-ve9jjo6bs7jc2gk2llaifgrfpfmpavh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{
+        "current_key": "AIzaSyA7_dYD4VrqvUsJoHHhWLWWgCEX3uJsjQk"
+      }],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
